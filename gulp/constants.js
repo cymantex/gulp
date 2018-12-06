@@ -5,12 +5,6 @@ const constants = {
         css: "style.css",
         sass: "style.scss"
     },
-    taskNames: {
-        watch: "watch",
-        webpack: "webpack",
-        sass: "sass",
-        reloadBrowser: "reloadBrowser"
-    },
     folderNames: {
         css: "css",
         sass: "sass",

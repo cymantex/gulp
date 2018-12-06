@@ -9,7 +9,7 @@
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.4",
     "cross-env": "^5.2.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1",
     "gulp-watch": "^4.3.5",
     "webpack": "^4.8.3"
