@@ -9,7 +9,8 @@ const constants = {
         css: "css",
         sass: "sass",
         javascript: "js",
-        dev: "dev"
+        dev: "dev",
+		production: "."
     }
 };
 
