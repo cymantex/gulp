@@ -1,5 +1,5 @@
 {
-  "name": "simple-javascript-app",
+  "name": "simple-app",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -11,15 +11,19 @@
     "cross-env": "^5.2.0",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
     "gulp-watch": "^4.3.5",
     "webpack": "^4.8.3"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11"
   },
   "scripts": {
     "gulp watch": "cross-env PORT=3000 UI_PORT=3001 gulp watch",
     "gulp sass": "gulp sass",
-    "gulp webpack": "gulp webpack"
+    "gulp webpack": "gulp webpack",
+    "gulp deploy": "gulp deploy"
   }
 }
